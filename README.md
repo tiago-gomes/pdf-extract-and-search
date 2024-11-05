@@ -44,37 +44,9 @@ bash
 
 Copy code
 
-`py search.py "your search query"`
+'`py search.py "your search query"`''
 
 Replace `"your search query"` with the desired text to search.
-
-How It Works
-------------
-
-1.  **PDF Parsing**: The script reads the PDF file and extracts text content page by page, saving it as a JSON file.
-2.  **Database Creation**: The extracted data is loaded into an SQLite database with an FTS (Full-Text Search) table for optimized searching.
-3.  **Search Tool**: The `search.py` script performs a full-text search in the database, highlights the search term in the results, and displays text excerpts from relevant pages.
-
-Customization
--------------
-
--   Modify the file paths for input/output as needed.
--   Adjust the number of search results or the formatting in the `search.py` script.
-
-Example
--------
-
-Run the extraction and search using the following commands:
-
-bash
-
-Copy code
-
-`# Extract text from PDF
-py extract_to_json.py
-
-# Search the extracted content
-py search.py "artigo 1.º"`
 
 Notes
 -----
