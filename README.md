@@ -1,6 +1,8 @@
 PDF Text Extraction and Search Tool
 ===================================
 
+![Project Screenshot](screenshot.png)
+
 This project provides a streamlined way to parse PDF files, convert the text into structured JSON items per page, and perform efficient text searches within the extracted data.
 
 Features
